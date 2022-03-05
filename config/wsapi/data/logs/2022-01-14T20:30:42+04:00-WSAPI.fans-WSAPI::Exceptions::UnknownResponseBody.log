@@ -1,0 +1,43 @@
+I, [2022-01-14T20:30:39.952184 #18030]  INFO -- : WSAPI#fans: uid(7722824909) page(1) account_name(bob)
+I, [2022-01-14T20:30:39.980374 #18030]  INFO -- : HTTP_CLIENT: METHOD(GET) URL(https://weibo.com/ajax/friendships/friends?relate=fans&page=1&uid=7722824909&type=fans) HEADERS({"referer"=>"https://weibo.com/u/7722824909", "accept"=>"application/json, text/plain, */*"}) TIMEOUT(15.0) RETRIES(3)
+I, [2022-01-14T20:30:39.989278 #18030]  INFO -- request: GET https://weibo.com/ajax/friendships/friends?page=1&relate=fans&type=fans&uid=7722824909
+I, [2022-01-14T20:30:39.989512 #18030]  INFO -- request: User-Agent: "(Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36)"
+pragma: "no-cache"
+cache-control: "no-cache"
+sec-ch-ua: "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\""
+sec-ch-ua-mobile: "?0"
+sec-ch-ua-platform: "\"Linux\""
+upgrade-insecure-requests: "1"
+accept: "application/json, text/plain, */*"
+sec-fetch-site: "none"
+sec-fetch-mode: "navigate"
+sec-fetch-user: "?1"
+sec-fetch-dest: "document"
+accept-language: "en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7,es;q=0.6"
+referer: "https://weibo.com/u/7722824909"
+Cookie: "ALF=1673702718; SCF=AjqGI2SlsQPoQc26bNHMWoNxF5nDcypK5nqSBQFzhLd0nE913PdfYD8OicJWMxRfNnNu0SESAJMyR4FN0GGCdwU.; SSOLoginState=1641845522; SUB=_2A25M5QmRDeRhGeFJ6VAZ8irFyzWIHXVvk3xZrDV8PUNbmtAfLUrkkW9NfGeWE5rvV5uShH19OaOwdyJE_T7C4NyH; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KMhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54; WBPSESS=WJF1PaMcQNB28UrLifgtWaHqdPdUPLpyIEySm04QJxHxrFnR_d7jsgcch8uJt51yUsCFDC4Zg8VmdqgFaMa5TlqlU8N8ppJHGpDRG1Se90MxAHJX_VyjipBdbg5VsoExIrzYaDn3owM4RFfMh1jZcg==; XSRF-TOKEN=vzg-EnsEG6PU8WMlPx-8QTA5; cross_origin_proto=SSL; login_sid_t=33edcf10e960771df2675887c0a6b388"
+I, [2022-01-14T20:30:42.395111 #18030]  INFO -- response: Status 200
+I, [2022-01-14T20:30:42.395314 #18030]  INFO -- response: server: "wServer"
+date: "Fri, 14 Jan 2022 16:30:42 GMT"
+content-type: "application/json; charset=utf-8"
+transfer-encoding: "chunked"
+connection: "keep-alive"
+vary: "Accept-Encoding"
+x-log-uid: "7722824909"
+x-frame-options: "SAMEORIGIN"
+x-xss-protection: "1; mode=block"
+x-content-type-options: "nosniff"
+x-download-options: "noopen"
+x-readtime: "84"
+proc_node: "mapi-weibopro-node-bypass-1-6f447fb84f-8xgmp"
+ssl_node: "ssl-002.mweibo.hk.intra.weibo.cn"
+lb: "36.51.254.228"
+I, [2022-01-14T20:30:42.395433 #18030]  INFO -- response: {"users":[{"id":2671109275,"idstr":"2671109275","class":1,"screen_name":"新手指南","name":"新手指南","province":"11","city":"8","location":"北京 海淀区","description":"教授新手使用微博方法专业户，每天推荐方法介绍、微博热点...有问题请call我，@、私信都可以，欢迎骚扰~","url":"http://www.weibo.com/guide/handbook","profile_image_url":"https://tvax3.sinaimg.cn/crop.0.0.1080.1080.50/9f35e49bly8gdil7s0mm2j20u00u075o.jpg?KID=imgbed,tva&Expires=1642188642&ssig=X3cKF%2F5YPF","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","profile_url":"u/2671109275","domain":"","weihao":"","gender":"m","followers_count":160800771,"followers_count_str":"1.61亿","friends_count":825,"pagefriends_count":9,"statuses_count":24629,"video_status_count":5,"video_play_count":0,"favourites_count":2669,"created_at":"Wed Mar 21 10:31:42 +0800 2012","following":false,"allow_all_act_msg":true,"geo_enabled":true,"verified":true,"verified_type":7,"remark":"","insecurity":{"sexual_content":false},"status_id":4725648146826255,"status_idstr":"4725648146826255","ptype":0,"allow_all_comment":true,"avatar_large":"https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/9f35e49bly8gdil7s0mm2j20u00u075o.jpg?KID=imgbed,tva&Expires=1642188642&ssig=7cG9fjvHJG","avatar_hd":"https://tvax3.sinaimg.cn/crop.0.0.1080.1080.1024/9f35e49bly8gdil7s0mm2j20u00u075o.jpg?KID=imgbed,tva&Expires=1642188642&ssig=3sqiAM98ET","verified_reason":"新浪微博新手指南官方微博","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","verified_state":0,"verified_level":3,"verified_type_ext":0,"pay_remind":0,"pay_date":"","has_service_tel":false,"verified_reason_modified":"","verified_contact_name":"","verified_contact_email":"","verified_contact_mobile":"","follow_me":false,"like":false,"like_me":false,"online_status":0,"bi_followers_count":639,"lang":"zh-cn","star":0,"mbtype":12,"mbrank":7,"svip":0,"block_word":1,"block_app":1,"credit_score":80,"user_ability":2359816,"cardid":"star_1439","avatargj_id":"gj_vip_575","urank":48,"story_read_state":-1,"vclub_member":0,"is_teenager":0,"is_guardian":0,"is_teenager_list":0,"pc_new":6,"special_follow":false,"planet_video":2,"video_mark":15,"live_status":0,"user_ability_extend":0,"status_total_counter":{"total_cnt":30443926,"repost_cnt":7992509,"comment_cnt":3768956,"like_cnt":18364692,"comment_like_cnt":317769},"video_total_counter":{"play_cnt":42631622},"brand_account":0,"hongbaofei":0}],"has_filtered_attentions":false,"next_cursor":0,"previous_cursor":0,"total_number":1,"use_sink_stragety":true,"has_filtered_fans":false,"display_total_number":1,"display_total_number_str":"1","ok":1}
+E, [2022-01-14T20:30:42.397943 #18030] ERROR -- : Unknown response body
+E, [2022-01-14T20:30:42.398065 #18030] ERROR -- : /home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:107:in `block in fans'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:102:in `each'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:102:in `fans'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli/commands/configure.rb:13:in `run'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli/commands/root.rb:24:in `run'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli.rb:8:in `run'
+./bin/wsapi:11:in `<main>'

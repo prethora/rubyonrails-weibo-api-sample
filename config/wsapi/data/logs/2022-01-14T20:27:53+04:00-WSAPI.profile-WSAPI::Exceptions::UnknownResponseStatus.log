@@ -1,0 +1,78 @@
+I, [2022-01-14T20:27:51.063832 #17504]  INFO -- : WSAPI#profile: uid(7722824909) account_name(bob)
+
+I, [2022-01-14T20:27:51.092119 #17504]  INFO -- : HTTP_CLIENT: METHOD(GET) URL(https://weibo.com/ajax/profile/info?uid=7722824909) HEADERS({"referer"=>"https://weibo.com/u/7722824909", "accept"=>"application/json, text/plain, */*"}) TIMEOUT(15.0) RETRIES(3)
+I, [2022-01-14T20:27:51.103996 #17504]  INFO -- request: GET https://weibo.com/ajax/profile/info?uid=7722824909
+I, [2022-01-14T20:27:51.104262 #17504]  INFO -- request: User-Agent: "(Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36)"
+pragma: "no-cache"
+cache-control: "no-cache"
+sec-ch-ua: "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\""
+sec-ch-ua-mobile: "?0"
+sec-ch-ua-platform: "\"Linux\""
+upgrade-insecure-requests: "1"
+accept: "application/json, text/plain, */*"
+sec-fetch-site: "none"
+sec-fetch-mode: "navigate"
+sec-fetch-user: "?1"
+sec-fetch-dest: "document"
+accept-language: "en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7,es;q=0.6"
+referer: "https://weibo.com/u/7722824909"
+Cookie: "ALF=1673702718; SCF=AjqGI2SlsQPoQc26bNHMWoNxF5nDcypK5nqSBQFzhLd0nE913PdfYD8OicJWMxRfNnNu0SESAJMyR4FN0GGCdwU.; SSOLoginState=1641845522; SUB=_2A25M5QmRDeRhGeFJ6VAZ8irFyzWIHXVvk3xZrDV8PUNbmtAfLUrkkW9NfGeWE5rvV5uShH19OaOwdyJE_T7C4NyH; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KMhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54; WBPSESS=WJF1PaMcQNB28UrLifgtWaHqdPdUPLpyIEySm04QJxHxrFnR_d7jsgcch8uJt51yUsCFDC4Zg8VmdqgFaMa5TlqlU8N8ppJHGpDRG1Se90MxAHJX_VyjipBdbg5VsoExIrzYaDn3owM4RFfMh1jZcg==; XSRF-TOKEN=vzg-EnsEG6PU8WMlPx-8QTA5; cross_origin_proto=SSL; login_sid_t=33edcf10e960771df2675887c0a6b388"
+I, [2022-01-14T20:27:53.551016 #17504]  INFO -- response: Status 200
+I, [2022-01-14T20:27:53.551238 #17504]  INFO -- response: server: "wServer"
+date: "Fri, 14 Jan 2022 16:27:53 GMT"
+content-type: "application/json; charset=utf-8"
+transfer-encoding: "chunked"
+connection: "keep-alive"
+vary: "Accept-Encoding"
+x-log-uid: "7722824909"
+x-frame-options: "SAMEORIGIN"
+x-xss-protection: "1; mode=block"
+x-content-type-options: "nosniff"
+x-download-options: "noopen"
+x-readtime: "177"
+proc_node: "mapi-weibopro-node-bypass-568cdfbc9-xb96z"
+ssl_node: "ssl-003.mweibo.hk.intra.weibo.cn"
+lb: "36.51.254.228"
+I, [2022-01-14T20:27:53.551350 #17504]  INFO -- response: {"ok":1,"data":{"user":{"id":7722824909,"idstr":"7722824909","pc_new":7,"screen_name":"用户7722824909","profile_image_url":"https://tvax1.sinaimg.cn/default/images/default_avatar_male_50.gif?KID=imgbed,tva&Expires=1642188473&ssig=%2FI1cMPv1H5","profile_url":"/u/7722824909","verified":false,"verified_type":-1,"domain":"","weihao":"","avatar_large":"https://tvax1.sinaimg.cn/default/images/default_avatar_male_180.gif?KID=imgbed,tva&Expires=1642188473&ssig=%2BoZBJokTyg","avatar_hd":"https://tvax1.sinaimg.cn/default/images/default_avatar_male_180.gif?KID=imgbed,tva&Expires=1642188473&ssig=%2BoZBJokTyg","follow_me":false,"following":false,"mbrank":0,"mbtype":0,"planet_video":true,"description":"","location":"浙江 丽水","gender":"m","followers_count":1,"followers_count_str":"1","friends_count":60,"statuses_count":0,"url":"","cover_image_phone":"https://ww1.sinaimg.cn/crop.0.0.640.640.640/549d0121tw1egm1kjly3jj20hs0hsq4f.jpg","user_type":2,"is_star":"0","wenda":"0","is_muteuser":false,"special_follow":false},"tabList":[{"name":"home","tabName":"精选"},{"name":"feed","tabName":"微博"},{"name":"album","tabName":"相册"}],"blockText":""}}
+
+I, [2022-01-14T20:27:51.095277 #17504]  INFO -- : HTTP_CLIENT: METHOD(GET) URL(https://weibo.com/ajax/profile/detail?uid=7722824909) HEADERS({"referer"=>"https://weibo.com/u/7722824909", "accept"=>"application/json, text/plain, */*"}) TIMEOUT(15.0) RETRIES(3)
+I, [2022-01-14T20:27:51.105312 #17504]  INFO -- request: GET https://weibo.com/ajax/profile/detail?uid=7722824909
+I, [2022-01-14T20:27:51.105674 #17504]  INFO -- request: User-Agent: "(Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36)"
+pragma: "no-cache"
+cache-control: "no-cache"
+sec-ch-ua: "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\""
+sec-ch-ua-mobile: "?0"
+sec-ch-ua-platform: "\"Linux\""
+upgrade-insecure-requests: "1"
+accept: "application/json, text/plain, */*"
+sec-fetch-site: "none"
+sec-fetch-mode: "navigate"
+sec-fetch-user: "?1"
+sec-fetch-dest: "document"
+accept-language: "en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7,es;q=0.6"
+referer: "https://weibo.com/u/7722824909"
+Cookie: "ALF=1673702718; SCF=AjqGI2SlsQPoQc26bNHMWoNxF5nDcypK5nqSBQFzhLd0nE913PdfYD8OicJWMxRfNnNu0SESAJMyR4FN0GGCdwU.; SSOLoginState=1641845522; SUB=_2A25M5QmRDeRhGeFJ6VAZ8irFyzWIHXVvk3xZrDV8PUNbmtAfLUrkkW9NfGeWE5rvV5uShH19OaOwdyJE_T7C4NyH; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KMhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54; WBPSESS=WJF1PaMcQNB28UrLifgtWaHqdPdUPLpyIEySm04QJxHxrFnR_d7jsgcch8uJt51yUsCFDC4Zg8VmdqgFaMa5TlqlU8N8ppJHGpDRG1Se90MxAHJX_VyjipBdbg5VsoExIrzYaDn3owM4RFfMh1jZcg==; XSRF-TOKEN=vzg-EnsEG6PU8WMlPx-8QTA5; cross_origin_proto=SSL; login_sid_t=33edcf10e960771df2675887c0a6b388"
+I, [2022-01-14T20:27:53.582162 #17504]  INFO -- response: Status 200
+I, [2022-01-14T20:27:53.582428 #17504]  INFO -- response: server: "wServer"
+date: "Fri, 14 Jan 2022 16:27:53 GMT"
+content-type: "application/json; charset=utf-8"
+content-length: "299"
+connection: "keep-alive"
+x-log-uid: "7722824909"
+x-frame-options: "SAMEORIGIN"
+x-xss-protection: "1; mode=block"
+x-content-type-options: "nosniff"
+x-download-options: "noopen"
+x-readtime: "258"
+proc_node: "mapi-weibopro-node-bypass-1-6f447fb84f-spcdk"
+ssl_node: "ssl-004.mweibo.hk.intra.weibo.cn"
+lb: "36.51.254.228"
+I, [2022-01-14T20:27:53.582583 #17504]  INFO -- response: {"data":{"sunshine_credit":{"level":"信用较低"},"birthday":"1991-07-11","created_at":"2021-11-11 18:37:17","description":"暂无简介","gender":"m","location":"浙江 丽水","label_desc":[],"desc_text":"","verified_url":"https://verified.weibo.com/verify?fr=myverified?uid=7722824909"},"ok":1}
+E, [2022-01-14T20:27:53.582902 #17504] ERROR -- : Unknown response status: 200
+E, [2022-01-14T20:27:53.583018 #17504] ERROR -- : /home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:62:in `block in profile'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:55:in `each'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:55:in `profile'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli/commands/configure.rb:13:in `run'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli/commands/root.rb:24:in `run'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli.rb:8:in `run'
+./bin/wsapi:11:in `<main>'

@@ -1,0 +1,36 @@
+I, [2022-01-14T18:08:52.277029 #32680]  INFO -- : WSAPI#friends: uid(353343423) page(1) account_name(bob)
+I, [2022-01-14T18:08:52.346878 #32680]  INFO -- : HTTP_CLIENT: METHOD(GET) URL(https://weibo.com/ajax/friendships/friends?page=1&uid=353343423) HEADERS({"referer"=>"https://weibo.com/u/353343423", "accept"=>"application/json, text/plain, */*"}) TIMEOUT(15.0) RETRIES(3)
+I, [2022-01-14T18:08:52.355850 #32680]  INFO -- request: GET https://weibo.com/ajax/friendships/friends?page=1&uid=353343423
+I, [2022-01-14T18:08:52.356094 #32680]  INFO -- request: User-Agent: "(Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36)"
+pragma: "no-cache"
+cache-control: "no-cache"
+sec-ch-ua: "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\""
+sec-ch-ua-mobile: "?0"
+sec-ch-ua-platform: "\"Linux\""
+upgrade-insecure-requests: "1"
+accept: "application/json, text/plain, */*"
+sec-fetch-site: "none"
+sec-fetch-mode: "navigate"
+sec-fetch-user: "?1"
+sec-fetch-dest: "document"
+accept-language: "en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7,es;q=0.6"
+referer: "https://weibo.com/u/353343423"
+Cookie: "ALF=1673702718; SCF=AjqGI2SlsQPoQc26bNHMWoNxF5nDcypK5nqSBQFzhLd0nE913PdfYD8OicJWMxRfNnNu0SESAJMyR4FN0GGCdwU.; SSOLoginState=1641845522; SUB=_2A25M5QmRDeRhGeFJ6VAZ8irFyzWIHXVvk3xZrDV8PUNbmtAfLUrkkW9NfGeWE5rvV5uShH19OaOwdyJE_T7C4NyH; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KMhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54; WBPSESS=WJF1PaMcQNB28UrLifgtWaHqdPdUPLpyIEySm04QJxHxrFnR_d7jsgcch8uJt51yUsCFDC4Zg8VmdqgFaMa5TlqlU8N8ppJHGpDRG1Se90MxAHJX_VyjipBdbg5VsoExIrzYaDn3owM4RFfMh1jZcg==; XSRF-TOKEN=vzg-EnsEG6PU8WMlPx-8QTA5; cross_origin_proto=SSL; login_sid_t=33edcf10e960771df2675887c0a6b388"
+I, [2022-01-14T18:08:54.744505 #32680]  INFO -- response: Status 400
+I, [2022-01-14T18:08:54.744761 #32680]  INFO -- response: server: "wServer"
+date: "Fri, 14 Jan 2022 14:08:54 GMT"
+content-type: "application/json; charset=utf-8"
+content-length: "218"
+connection: "keep-alive"
+x-log-uid: "7722824909"
+ssl_node: "ssl-004.mweibo.hk.intra.weibo.cn"
+lb: "36.51.254.228"
+I, [2022-01-14T18:08:54.744924 #32680]  INFO -- response: {"ok":0,"message":"该用户不存在(20003)","trace_id":"effe35669ebf835a133d40d81d20b013","transaction_id":"90d33263f1dc3d5f","span_id":null,"traceparent_id":"00-effe35669ebf835a133d40d81d20b013-90d33263f1dc3d5f-00"}
+E, [2022-01-14T18:08:54.748405 #32680] ERROR -- : User with uid '353343423' does not exist
+E, [2022-01-14T18:08:54.748578 #32680] ERROR -- : /home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:146:in `block in friends'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:143:in `each'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:143:in `friends'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli/commands/configure.rb:12:in `run'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli/commands/root.rb:24:in `run'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli.rb:8:in `run'
+./bin/wsapi:11:in `<main>'

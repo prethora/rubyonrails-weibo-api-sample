@@ -1,4 +1,9 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
-</p>
+<%
+require 'json'
+require 'weibo_scraper_api'
+wsapi = WSAPI.new account_name: "myaccount"
+res = wsapi.profile "2125613987"
+%>
+<pre>
+  <%= JSON.pretty_generate(res) %>
+</pre>

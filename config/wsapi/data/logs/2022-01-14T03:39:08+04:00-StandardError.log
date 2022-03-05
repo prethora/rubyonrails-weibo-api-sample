@@ -1,0 +1,42 @@
+I, [2022-01-14T03:39:05.894211 #24634]  INFO -- : WSAPI#statuses: uid(7722824909) since_id() account_name(anobob)
+I, [2022-01-14T03:39:05.922788 #24634]  INFO -- : HTTP_CLIENT: METHOD(GET) URL(https://weibo.com/ajax/statuses/mymblog?uid=7722824909&page=1&feature=0) HEADERS({"referer"=>"https://weibo.com/u/7722824909", "accept"=>"application/json, text/plain, */*"}) TIMEOUT(15.0) RETRIES(3)
+I, [2022-01-14T03:39:05.935856 #24634]  INFO -- request: GET https://weibo.com/ajax/statuses/mymblog?feature=0&page=1&uid=7722824909
+I, [2022-01-14T03:39:05.936295 #24634]  INFO -- request: User-Agent: "(Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36)"
+pragma: "no-cache"
+cache-control: "no-cache"
+sec-ch-ua: "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\""
+sec-ch-ua-mobile: "?0"
+sec-ch-ua-platform: "\"Linux\""
+upgrade-insecure-requests: "1"
+accept: "application/json, text/plain, */*"
+sec-fetch-site: "none"
+sec-fetch-mode: "navigate"
+sec-fetch-user: "?1"
+sec-fetch-dest: "document"
+accept-language: "en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7,es;q=0.6"
+referer: "https://weibo.com/u/7722824909"
+Cookie: "ALF=1673650798; SCF=ApoGDm8oQBimtG9xShzp-BIyy-e-_DCVwDRKp7ZdABrbJodiaOGJYm9vjFlZiRJDl2UqQz4eHSc2O_cDwN4av7E.; SSOLoginState=1641994585; SUB=_2A25M5N6hDeRhGeFJ6VAZ8irFyzWIHXVvk7dprDV8PUNbmtAfLXPykW9NfGeWE3WcQZnqRxiZTwVB54TRIFgUS9UH; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KMhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54; WBPSESS=WJF1PaMcQNB28UrLifgtWaHqdPdUPLpyIEySm04QJxHxrFnR_d7jsgcch8uJt51yUsCFDC4Zg8VmdqgFaMa5TsIzEVNu97MMvsNSobhbWaTjDLGMS5lnUz5ZeqaBRwMxLuDHhY7Mo50KSemsBl_Cjg==; XSRF-TOKEN=zJqKGDBVlopJJatcPXu95WF9; cross_origin_proto=SSL; login_sid_t=a0d9ddc58a27ff0c6790c07fb9655907"
+I, [2022-01-14T03:39:08.534694 #24634]  INFO -- response: Status 200
+I, [2022-01-14T03:39:08.535003 #24634]  INFO -- response: server: "wServer"
+date: "Thu, 13 Jan 2022 23:39:08 GMT"
+content-type: "application/json; charset=utf-8"
+content-length: "125"
+connection: "keep-alive"
+x-log-uid: "7722824909"
+x-frame-options: "SAMEORIGIN"
+x-xss-protection: "1; mode=block"
+x-content-type-options: "nosniff"
+x-download-options: "noopen"
+x-readtime: "176"
+proc_node: "mapi-weibopro-node-bypass-7d457b566d-879sx"
+ssl_node: "ssl-003.mweibo.hk.intra.weibo.cn"
+lb: "36.51.254.229"
+I, [2022-01-14T03:39:08.535172 #24634]  INFO -- response: {"data":{"since_id":"","list":[],"status_visible":0,"bottom_tips_visible":false,"bottom_tips_text":"","topicList":[]},"ok":1}
+E, [2022-01-14T03:39:08.535726 #24634] ERROR -- : bogus
+E, [2022-01-14T03:39:08.535889 #24634] ERROR -- : /home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:180:in `block in statuses'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:169:in `each'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:169:in `statuses'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli/commands/configure.rb:31:in `run'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli/commands/root.rb:24:in `run'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api/cli.rb:8:in `run'
+./bin/wsapi:11:in `<main>'

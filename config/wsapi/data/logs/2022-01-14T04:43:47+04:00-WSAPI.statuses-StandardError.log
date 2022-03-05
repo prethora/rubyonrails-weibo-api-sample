@@ -1,0 +1,84 @@
+I, [2022-01-14T04:43:45.272628 #32328]  INFO -- : WSAPI#statuses: uid(7722824909) since_id() account_name(test_account)
+I, [2022-01-14T04:43:45.273985 #32328]  INFO -- : HTTP_CLIENT: METHOD(GET) URL(https://weibo.com/ajax/statuses/mymblog?uid=7722824909&page=1&feature=0) HEADERS({"referer"=>"https://weibo.com/u/7722824909", "accept"=>"application/json, text/plain, */*"}) TIMEOUT(15.0) RETRIES(3)
+I, [2022-01-14T04:43:45.277005 #32328]  INFO -- request: GET https://weibo.com/ajax/statuses/mymblog?feature=0&page=1&uid=7722824909
+I, [2022-01-14T04:43:45.277441 #32328]  INFO -- request: User-Agent: "(Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36)"
+pragma: "no-cache"
+cache-control: "no-cache"
+sec-ch-ua: "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\""
+sec-ch-ua-mobile: "?0"
+sec-ch-ua-platform: "\"Linux\""
+upgrade-insecure-requests: "1"
+accept: "application/json, text/plain, */*"
+sec-fetch-site: "none"
+sec-fetch-mode: "navigate"
+sec-fetch-user: "?1"
+sec-fetch-dest: "document"
+accept-language: "en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7,es;q=0.6"
+referer: "https://weibo.com/u/7722824909"
+Cookie: "ALF=1673657005; SSOLoginState=1642121012; SUB=_2A25M5LdkDeRhGeFJ6VAZ8irFyzWIHXVvk6-srDV8PUNbmtAfLRb9kW9NfGeWE1BI636VA0KWV0M_DCrYbEGxnNAW; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KzhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54; WBPSESS=WJF1PaMcQNB28UrLifgtWaHqdPdUPLpyIEySm04QJxHxrFnR_d7jsgcch8uJt51yUsCFDC4Zg8VmdqgFaMa5Tmfjf3IOsjEL2roT6divGLvxNHe7pZSFuP109PoG8fjh48mzf4l4JSioQnNIWE4j_g==; XSRF-TOKEN=uAHFy3boocauNz9SKICGDX3J; cross_origin_proto=SSL; login_sid_t=73a88a154735d473eb0bcea0b18ba690"
+I, [2022-01-14T04:43:47.474837 #32328]  INFO -- response: Status 200
+I, [2022-01-14T04:43:47.475038 #32328]  INFO -- response: server: "wServer"
+date: "Fri, 14 Jan 2022 00:43:47 GMT"
+content-type: "application/json; charset=utf-8"
+content-length: "125"
+connection: "keep-alive"
+x-log-uid: "7722824909"
+x-frame-options: "SAMEORIGIN"
+x-xss-protection: "1; mode=block"
+x-content-type-options: "nosniff"
+x-download-options: "noopen"
+x-readtime: "161"
+proc_node: "mapi-weibopro-node-bypass-7d457b566d-q7564"
+ssl_node: "ssl-004.mweibo.hk.intra.weibo.cn"
+lb: "36.51.254.229"
+I, [2022-01-14T04:43:47.475157 #32328]  INFO -- response: {"data":{"since_id":"","list":[],"status_visible":0,"bottom_tips_visible":false,"bottom_tips_text":"","topicList":[]},"ok":1}
+E, [2022-01-14T04:43:47.475519 #32328] ERROR -- : bogus
+E, [2022-01-14T04:43:47.475828 #32328] ERROR -- : /home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:181:in `block in statuses'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:170:in `each'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/lib/weibo_scraper_api.rb:170:in `statuses'
+/home/mecrogenesis/Organizations/co.prethora/@ruby/weibo_scraper_api/spec/weibo_scraper_api_spec.rb:72:in `block (3 levels) in <top (required)>'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example.rb:262:in `instance_exec'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example.rb:262:in `block in run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example.rb:508:in `block in with_around_and_singleton_context_hooks'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example.rb:465:in `block in with_around_example_hooks'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/hooks.rb:486:in `block in run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/hooks.rb:624:in `run_around_example_hooks_for'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/hooks.rb:486:in `run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example.rb:465:in `with_around_example_hooks'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example.rb:508:in `with_around_and_singleton_context_hooks'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example.rb:259:in `run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example_group.rb:644:in `block in run_examples'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example_group.rb:640:in `map'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example_group.rb:640:in `run_examples'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example_group.rb:606:in `run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example_group.rb:607:in `block in run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example_group.rb:607:in `map'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/example_group.rb:607:in `run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:121:in `block (3 levels) in run_specs'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:121:in `map'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:121:in `block (2 levels) in run_specs'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:2067:in `with_suite_hooks'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:116:in `block in run_specs'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/reporter.rb:74:in `report'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:115:in `run_specs'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:89:in `run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:71:in `run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:45:in `invoke'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rspec-core-3.10.1/exe/rspec:4:in `<top (required)>'
+/home/mecrogenesis/.rbenv/versions/2.7.0/bin/rspec:23:in `load'
+/home/mecrogenesis/.rbenv/versions/2.7.0/bin/rspec:23:in `<top (required)>'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/cli/exec.rb:58:in `load'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/cli/exec.rb:58:in `kernel_load'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/cli/exec.rb:23:in `run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/cli.rb:484:in `exec'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/cli.rb:31:in `dispatch'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/cli.rb:25:in `start'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/exe/bundle:48:in `block in <top (required)>'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/lib/bundler/friendly_errors.rb:103:in `with_friendly_errors'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bundler-2.3.4/exe/bundle:36:in `<top (required)>'
+/home/mecrogenesis/.rbenv/versions/2.7.0/bin/bundle:23:in `load'
+/home/mecrogenesis/.rbenv/versions/2.7.0/bin/bundle:23:in `<main>'

@@ -1,0 +1,1 @@
+Dir[File.join(__dir__,"storage","**","*.rb")].each {|l| require l}

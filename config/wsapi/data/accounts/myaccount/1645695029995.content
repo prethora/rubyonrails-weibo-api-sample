@@ -1,0 +1,265 @@
+---
+- !ruby/object:HTTP::Cookie
+  name: login_sid_t
+  value: eec8ad34a93e98bb2ac0624740b14339
+  domain: weibo.com
+  for_domain: true
+  path: "/"
+  secure: false
+  httponly: false
+  expires: 
+  max_age: 
+  created_at: 2022-02-24 13:29:46.661665781 +04:00
+  accessed_at: &1 2022-02-24 13:30:28.098279750 +04:00
+- !ruby/object:HTTP::Cookie
+  name: cross_origin_proto
+  value: SSL
+  domain: weibo.com
+  for_domain: true
+  path: "/"
+  secure: false
+  httponly: false
+  expires: 
+  max_age: 
+  created_at: 2022-02-24 13:29:46.662019488 +04:00
+  accessed_at: *1
+- !ruby/object:HTTP::Cookie
+  name: SUB
+  value: _2A25PEyBhDeRhGeFJ6VAZ8irFyzWIHXVsaRaprDV8PUNbmtAfLWjBkW9NfGeWE57ibwboIiWcb1Tq4uAJrgdyoZAm
+  domain: weibo.com
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: true
+  expires: 
+  max_age: 
+  created_at: 2022-02-24 13:30:26.162461620 +04:00
+  accessed_at: *1
+- !ruby/object:HTTP::Cookie
+  name: SUBP
+  value: 0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KzhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54
+  domain: weibo.com
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: false
+  expires: 2023-02-24 09:30:25.000000000 Z
+  max_age: 
+  created_at: 2022-02-24 13:30:26.163150325 +04:00
+  accessed_at: *1
+- !ruby/object:HTTP::Cookie
+  name: ALF
+  value: '1677231017'
+  domain: weibo.com
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: false
+  expires: 2023-02-24 09:30:17.000000000 Z
+  max_age: 
+  created_at: 2022-02-24 13:30:26.165371354 +04:00
+  accessed_at: *1
+- !ruby/object:HTTP::Cookie
+  name: SSOLoginState
+  value: '1645695025'
+  domain: weibo.com
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: false
+  expires: 
+  max_age: 
+  created_at: 2022-02-24 13:30:26.165738682 +04:00
+  accessed_at: *1
+- !ruby/object:HTTP::Cookie
+  name: XSRF-TOKEN
+  value: 8YZ_rczMOUoQKLrq6U3XX68X
+  domain: weibo.com
+  for_domain: false
+  path: "/"
+  secure: true
+  httponly: false
+  expires: 
+  max_age: 
+  created_at: 2022-02-24 13:30:28.095815593 +04:00
+  accessed_at: *1
+- !ruby/object:HTTP::Cookie
+  name: WBPSESS
+  value: WJF1PaMcQNB28UrLifgtWaHqdPdUPLpyIEySm04QJxHxrFnR_d7jsgcch8uJt51yUsCFDC4Zg8VmdqgFaMa5ToNXkIzzC_DVxcZeZDpQIEoQZgsKPwTEiqCaKJbr6TuqvAG2qtqoBhDe_Nd-toNpyg==
+  domain: weibo.com
+  for_domain: false
+  path: "/"
+  secure: true
+  httponly: true
+  expires: 
+  max_age: 86400
+  created_at: 2022-02-24 13:30:28.096377877 +04:00
+  accessed_at: *1
+- !ruby/object:HTTP::Cookie
+  name: tgc
+  value: TGT-NzcyMjgyNDkwOQ==-1645695016-gz-247AC7137F78D97DAC340F553022ABB6-1
+  domain: login.sina.com.cn
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: true
+  expires: 
+  max_age: 
+  created_at: &2 2022-02-24 13:30:17.694547024 +04:00
+  accessed_at: *2
+- !ruby/object:HTTP::Cookie
+  name: ALC
+  value: ac%3D2%26bt%3D1645695017%26cv%3D5.0%26et%3D1677231017%26ic%3D1719030281%26login_time%3D1645695016%26scf%3D%26uid%3D7722824909%26vf%3D0%26vs%3D1%26vt%3D0%26es%3Dc0a1c36b29a425a9cacd17c2b0610c66
+  domain: login.sina.com.cn
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: true
+  expires: 2023-02-24 09:30:17.000000000 Z
+  max_age: 
+  created_at: &3 2022-02-24 13:30:17.696313537 +04:00
+  accessed_at: *3
+- !ruby/object:HTTP::Cookie
+  name: LT
+  value: '1645695017'
+  domain: login.sina.com.cn
+  for_domain: true
+  path: "/"
+  secure: false
+  httponly: false
+  expires: 
+  max_age: 
+  created_at: &4 2022-02-24 13:30:17.697301814 +04:00
+  accessed_at: *4
+- !ruby/object:HTTP::Cookie
+  name: SUB
+  value: _2A25PEyB5DeRhGeFJ6VAZ8irFyzWIHXVsaRaxrDV_PUNbm9AfLVD6kW9NfGeWEypztYyxJJ_1B_V4WqWP1xOSdb2o
+  domain: sina.com.cn
+  for_domain: true
+  path: "/"
+  secure: false
+  httponly: true
+  expires: 
+  max_age: 
+  created_at: &5 2022-02-24 13:30:17.694838102 +04:00
+  accessed_at: *5
+- !ruby/object:HTTP::Cookie
+  name: SUBP
+  value: 0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KzhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54
+  domain: sina.com.cn
+  for_domain: true
+  path: "/"
+  secure: false
+  httponly: false
+  expires: 
+  max_age: 
+  created_at: &6 2022-02-24 13:30:17.695196153 +04:00
+  accessed_at: *6
+- !ruby/object:HTTP::Cookie
+  name: ALF
+  value: '1677231017'
+  domain: sina.com.cn
+  for_domain: true
+  path: "/"
+  secure: false
+  httponly: false
+  expires: 2023-02-24 09:30:17.000000000 Z
+  max_age: 
+  created_at: &7 2022-02-24 13:30:17.696981128 +04:00
+  accessed_at: *7
+- !ruby/object:HTTP::Cookie
+  name: ALF
+  value: '1648287019'
+  domain: krcom.cn
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: false
+  expires: 2022-03-26 09:30:19.000000000 Z
+  max_age: 
+  created_at: &8 2022-02-24 13:30:20.691358425 +04:00
+  accessed_at: *8
+- !ruby/object:HTTP::Cookie
+  name: SUB
+  value: _2A1iIc5iNm7iUozEv0u5OxWnVmEqH7MNVH0cTWZ3oF1KoVfaOWe2UGXVrhm7WUAEN5M0ddYpG_8umZY6W_LHovlyZ
+  domain: krcom.cn
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: true
+  expires: 
+  max_age: 
+  created_at: &9 2022-02-24 13:30:20.692156165 +04:00
+  accessed_at: *9
+- !ruby/object:HTTP::Cookie
+  name: SUBP
+  value: 0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KzhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54
+  domain: krcom.cn
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: false
+  expires: 2023-02-24 09:30:19.000000000 Z
+  max_age: 
+  created_at: &10 2022-02-24 13:30:20.693176320 +04:00
+  accessed_at: *10
+- !ruby/object:HTTP::Cookie
+  name: SSOLoginState
+  value: '1645695023'
+  domain: weibo.cn
+  for_domain: true
+  path: "/"
+  secure: false
+  httponly: false
+  expires: 
+  max_age: 
+  created_at: &11 2022-02-24 13:30:23.362276246 +04:00
+  accessed_at: *11
+- !ruby/object:HTTP::Cookie
+  name: ALF
+  value: '1648287023'
+  domain: weibo.cn
+  for_domain: true
+  path: "/"
+  secure: false
+  httponly: false
+  expires: 2022-03-26 09:30:23.000000000 Z
+  max_age: 
+  created_at: &12 2022-02-24 13:30:23.362940264 +04:00
+  accessed_at: *12
+- !ruby/object:HTTP::Cookie
+  name: SRT
+  value: D.QqHBJZPAMQbCTmMb4cYGS4S1ibSBdZY9V!Su5bWHNEYdV-ENRQBpMERt4EPKRcsrAdSJP-9CTsVuOcSGSPWEiOW9ReW8Urb9P-i8JPMoiGPBNeHeSGb6d!Ek*B.vAflW-P9Rc0lR-ykXDvnJqiQVbiRVPBtS!r3JZPQVqbgVdWiMZ4siOzu4DbmKPVsJEY4i4kEOcYkR-MNO3iOI!uOQpuli49ndDPI5cYPSrnlMcyiOcP65bHbUrzrSdXlJcM1OFyHVDWJ5mkiODEIA!oCN-uJ5mkoODEfU!oCUrsK4qBwMOEf5bXoNq4r
+  domain: passport.weibo.com
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: true
+  expires: 2032-02-22 09:30:25.000000000 Z
+  max_age: 
+  created_at: &13 2022-02-24 13:30:26.164339989 +04:00
+  accessed_at: *13
+- !ruby/object:HTTP::Cookie
+  name: SRF
+  value: '1645695025'
+  domain: passport.weibo.com
+  for_domain: true
+  path: "/"
+  secure: true
+  httponly: false
+  expires: 2032-02-22 09:30:25.000000000 Z
+  max_age: 
+  created_at: &14 2022-02-24 13:30:26.164867714 +04:00
+  accessed_at: *14
+- !ruby/object:HTTP::Cookie
+  name: internal_uid
+  value: '7722824909'
+  domain: wsapi.internal
+  for_domain: true
+  path: "/"
+  secure: false
+  httponly: false
+  expires: 
+  max_age: 157680000
+  created_at: &15 2022-02-24 13:30:29.978296175 +04:00
+  accessed_at: *15

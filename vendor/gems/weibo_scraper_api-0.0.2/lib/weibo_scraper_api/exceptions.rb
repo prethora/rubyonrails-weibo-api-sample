@@ -1,0 +1,1 @@
+Dir[File.join(__dir__,"exceptions","*.rb")].each {|l| require l}
