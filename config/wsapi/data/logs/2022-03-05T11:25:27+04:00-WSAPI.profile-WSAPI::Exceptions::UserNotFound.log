@@ -1,0 +1,176 @@
+I, [2022-03-05T11:25:24.955252 #2261]  INFO -- : WSAPI#profile: uid(21256139871) account_name(myaccount)
+
+I, [2022-03-05T11:25:25.042705 #2261]  INFO -- : HTTP_CLIENT: METHOD(GET) URL(https://weibo.com/ajax/profile/info?uid=21256139871) HEADERS({"referer"=>"https://weibo.com/u/21256139871", "accept"=>"application/json, text/plain, */*"}) TIMEOUT(15.0) RETRIES(3)
+I, [2022-03-05T11:25:25.057826 #2261]  INFO -- request: GET https://weibo.com/ajax/profile/info?uid=21256139871
+I, [2022-03-05T11:25:25.058082 #2261]  INFO -- request: User-Agent: "(Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36)"
+pragma: "no-cache"
+cache-control: "no-cache"
+sec-ch-ua: "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\""
+sec-ch-ua-mobile: "?0"
+sec-ch-ua-platform: "\"Linux\""
+upgrade-insecure-requests: "1"
+accept: "application/json, text/plain, */*"
+sec-fetch-site: "none"
+sec-fetch-mode: "navigate"
+sec-fetch-user: "?1"
+sec-fetch-dest: "document"
+accept-language: "en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7,es;q=0.6"
+referer: "https://weibo.com/u/21256139871"
+Cookie: "ALF=1677999679; SCF=AuqsM8KgrK0BYczof0T7m3113Zui2xawbgFeDlpStozgf0Pot8Aa0tY9u4maHb2_T71QWJ6kJn_fKJnip8oRYqI.; SSOLoginState=1645695025; SUB=_2A25PJ3qSDeRhGeFJ6VAZ8irFyzWIHXVsVetarDV8PUNbmtAfLRbekW9NfGeWExQ8JSM-5lzT17tI6wQEBCuwT-wl; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KMhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54; WBPSESS=WJF1PaMcQNB28UrLifgtWaHqdPdUPLpyIEySm04QJxHxrFnR_d7jsgcch8uJt51yUsCFDC4Zg8VmdqgFaMa5TouXAHXlDO2yUWx9_tv8DxsgIM3-QBFRy41xBY7Y7qIEtoclo5CABAm3MFghJu3uKg==; XSRF-TOKEN=8YZ_rczMOUoQKLrq6U3XX68X; cross_origin_proto=SSL; login_sid_t=eec8ad34a93e98bb2ac0624740b14339"
+I, [2022-03-05T11:25:27.098243 #2261]  INFO -- response: Status 400
+I, [2022-03-05T11:25:27.098406 #2261]  INFO -- response: server: "wServer"
+date: "Sat, 05 Mar 2022 07:25:26 GMT"
+content-type: "application/json; charset=utf-8"
+content-length: "218"
+connection: "keep-alive"
+x-log-uid: "7722824909"
+ssl_node: "ssl-004.mweibo.hk.intra.weibo.cn"
+lb: "36.51.254.229"
+I, [2022-03-05T11:25:27.098501 #2261]  INFO -- response: {"ok":0,"message":"该用户不存在(20003)","trace_id":"2fade710c6ebdd8fc29627055d8ba0c1","transaction_id":"786af1c44f93a77b","span_id":null,"traceparent_id":"00-2fade710c6ebdd8fc29627055d8ba0c1-786af1c44f93a77b-00"}
+
+I, [2022-03-05T11:25:25.060510 #2261]  INFO -- : HTTP_CLIENT: METHOD(GET) URL(https://weibo.com/ajax/profile/detail?uid=21256139871) HEADERS({"referer"=>"https://weibo.com/u/21256139871", "accept"=>"application/json, text/plain, */*"}) TIMEOUT(15.0) RETRIES(3)
+I, [2022-03-05T11:25:25.065450 #2261]  INFO -- request: GET https://weibo.com/ajax/profile/detail?uid=21256139871
+I, [2022-03-05T11:25:25.065838 #2261]  INFO -- request: User-Agent: "(Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36)"
+pragma: "no-cache"
+cache-control: "no-cache"
+sec-ch-ua: "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\""
+sec-ch-ua-mobile: "?0"
+sec-ch-ua-platform: "\"Linux\""
+upgrade-insecure-requests: "1"
+accept: "application/json, text/plain, */*"
+sec-fetch-site: "none"
+sec-fetch-mode: "navigate"
+sec-fetch-user: "?1"
+sec-fetch-dest: "document"
+accept-language: "en-US,en;q=0.9,fr-FR;q=0.8,fr;q=0.7,es;q=0.6"
+referer: "https://weibo.com/u/21256139871"
+Cookie: "ALF=1677999679; SCF=AuqsM8KgrK0BYczof0T7m3113Zui2xawbgFeDlpStozgf0Pot8Aa0tY9u4maHb2_T71QWJ6kJn_fKJnip8oRYqI.; SSOLoginState=1645695025; SUB=_2A25PJ3qSDeRhGeFJ6VAZ8irFyzWIHXVsVetarDV8PUNbmtAfLRbekW9NfGeWExQ8JSM-5lzT17tI6wQEBCuwT-wl; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W50XT5KENhmcdROsS.NS_.n5JpX5KMhUgL.FoMNeozReoB4eh.2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNS0zE1hzX1K54; WBPSESS=WJF1PaMcQNB28UrLifgtWaHqdPdUPLpyIEySm04QJxHxrFnR_d7jsgcch8uJt51yUsCFDC4Zg8VmdqgFaMa5TouXAHXlDO2yUWx9_tv8DxsgIM3-QBFRy41xBY7Y7qIEtoclo5CABAm3MFghJu3uKg==; XSRF-TOKEN=8YZ_rczMOUoQKLrq6U3XX68X; cross_origin_proto=SSL; login_sid_t=eec8ad34a93e98bb2ac0624740b14339"
+I, [2022-03-05T11:25:27.096025 #2261]  INFO -- response: Status 400
+I, [2022-03-05T11:25:27.096283 #2261]  INFO -- response: server: "wServer"
+date: "Sat, 05 Mar 2022 07:25:26 GMT"
+content-type: "application/json; charset=utf-8"
+content-length: "218"
+connection: "keep-alive"
+x-log-uid: "7722824909"
+ssl_node: "ssl-004.mweibo.hk.intra.weibo.cn"
+lb: "36.51.254.228"
+I, [2022-03-05T11:25:27.096485 #2261]  INFO -- response: {"ok":0,"message":"该用户不存在(20003)","trace_id":"c43f062cc0e522c201d36b6fafccb107","transaction_id":"39c3da8c8327b3c7","span_id":null,"traceparent_id":"00-c43f062cc0e522c201d36b6fafccb107-39c3da8c8327b3c7-00"}
+E, [2022-03-05T11:25:27.099328 #2261] ERROR -- : User with uid '21256139871' does not exist
+E, [2022-03-05T11:25:27.100177 #2261] ERROR -- : /home/mecrogenesis/Organizations/co.prethora/@heroku/rubyrailsweibo/vendor/gems/weibo_scraper_api-0.0.2/lib/weibo_scraper_api.rb:172:in `block in profile'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/core_ext/range/each.rb:9:in `each'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/core_ext/range/each.rb:9:in `each'
+/home/mecrogenesis/Organizations/co.prethora/@heroku/rubyrailsweibo/vendor/gems/weibo_scraper_api-0.0.2/lib/weibo_scraper_api.rb:166:in `profile'
+/home/mecrogenesis/Organizations/co.prethora/@heroku/rubyrailsweibo/app/views/welcome/index.html.erb:17:in `_app_views_welcome_index_html_erb__69687569963514402_18240'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/base.rb:247:in `public_send'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/base.rb:247:in `_run'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/template.rb:154:in `block in render'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/notifications.rb:205:in `instrument'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/template.rb:345:in `instrument_render_template'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/template.rb:152:in `render'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/renderer/template_renderer.rb:61:in `block (2 levels) in render_template'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/notifications.rb:203:in `block in instrument'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/notifications.rb:203:in `instrument'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/renderer/template_renderer.rb:56:in `block in render_template'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/renderer/template_renderer.rb:71:in `block in render_with_layout'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/notifications.rb:203:in `block in instrument'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/notifications.rb:203:in `instrument'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/renderer/template_renderer.rb:70:in `render_with_layout'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/renderer/template_renderer.rb:11:in `render'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/rendering.rb:117:in `block in _render_template'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/base.rb:273:in `in_rendering_context'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/rendering.rb:116:in `_render_template'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/streaming.rb:218:in `_render_template'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/rendering.rb:103:in `render_to_body'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/abstract_controller/rendering.rb:25:in `render'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/rendering.rb:36:in `render'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/2.7.0/benchmark.rb:308:in `realtime'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/core_ext/benchmark.rb:14:in `ms'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activerecord-6.1.4.6/lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:45:in `render'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/abstract_controller/base.rb:228:in `process_action'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/rendering.rb:30:in `process_action'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.1.4.6/lib/action_text/rendering.rb:20:in `with_renderer'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.1.4.6/lib/action_text/engine.rb:59:in `block (4 levels) in <class:Engine>'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/callbacks.rb:126:in `instance_exec'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/abstract_controller/callbacks.rb:41:in `process_action'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/rescue.rb:22:in `process_action'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/notifications.rb:203:in `block in instrument'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/notifications.rb:203:in `instrument'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activerecord-6.1.4.6/lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/abstract_controller/base.rb:165:in `process'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionview-6.1.4.6/lib/action_view/rendering.rb:39:in `process'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal.rb:190:in `dispatch'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_controller/metal.rb:254:in `dispatch'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/routing/route_set.rb:33:in `serve'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/journey/router.rb:50:in `block in serve'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/journey/router.rb:32:in `each'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/journey/router.rb:32:in `serve'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/routing/route_set.rb:842:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/tempfile_reaper.rb:15:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/etag.rb:27:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/conditional_get.rb:27:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/session/abstract/id.rb:266:in `context'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/session/abstract/id.rb:260:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/cookies.rb:689:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activerecord-6.1.4.6/lib/active_record/migration.rb:601:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:132:in `call_app'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:28:in `block in call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `catch'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-6.1.4.6/lib/rails/rack/logger.rb:37:in `call_app'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-6.1.4.6/lib/rails/rack/logger.rb:26:in `block in call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/tagged_logging.rb:37:in `tagged'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/tagged_logging.rb:99:in `tagged'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-6.1.4.6/lib/rails/rack/logger.rb:26:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/request_id.rb:26:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/activesupport-6.1.4.6/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/executor.rb:14:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/static.rb:24:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionpack-6.1.4.6/lib/action_dispatch/middleware/host_authorization.rb:119:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-mini-profiler-2.3.4/lib/mini_profiler/profiler.rb:393:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/webpacker-5.4.3/lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rack-proxy-0.7.2/lib/rack/proxy.rb:67:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-6.1.4.6/lib/rails/engine.rb:539:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/puma-5.6.2/lib/puma/configuration.rb:252:in `call'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/puma-5.6.2/lib/puma/request.rb:77:in `block in handle_request'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/puma-5.6.2/lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/puma-5.6.2/lib/puma/request.rb:76:in `handle_request'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/puma-5.6.2/lib/puma/server.rb:441:in `process_client'
+/home/mecrogenesis/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/puma-5.6.2/lib/puma/thread_pool.rb:147:in `block in spawn_thread'

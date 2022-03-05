@@ -1,9 +1,28 @@
 <%
 require 'json'
 require 'weibo_scraper_api'
-wsapi = WSAPI.new account_name: "myaccount"
-res = wsapi.profile "2125613987"
+
+def outputError(reason)
 %>
 <pre>
-  <%= JSON.pretty_generate(res) %>
+<%= JSON.pretty_generate({"error": true,"reason": reason}) %>
 </pre>
+<%
+end
+
+if params["uid"].blank?
+  outputError "uid query parameter is required"
+else
+  wsapi = WSAPI.new account_name: "myaccount"
+  begin
+    res = wsapi.profile params["uid"]
+%>
+<pre>
+<%= JSON.pretty_generate(res) %>
+</pre>
+<%  
+  rescue WSAPI::Exceptions::UserNotFound
+    outputError "user not found"
+  end
+end
+%>
